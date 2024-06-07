@@ -1,10 +1,9 @@
-# Tildagon Firmware
+# My Custom Tildagon Firmware
 
-Web flasher is available @ https://emfcamp.github.io/badge-2024-software/
+This is my own version of the standard EMF Tildagon Firmware
+I did not write a lot of the code, the amazing EMF badge team did.
 
 ## Building
-
-To build with a consistent toolchain, use docker.
 
 Pull the firmware build image:
 
