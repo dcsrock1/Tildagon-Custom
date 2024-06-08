@@ -116,7 +116,7 @@ class OtaUpdate(App):
             self.task = async_helpers.unblock(
                 requests.head,
                 render_update,
-                "https://github.com/emfcamp/badge-2024-software/releases/download/latest/micropython.bin",
+                "https://github.com/dcsrock1/Tildagon-Custom/releases/download/latest/micropython.bin",
                 allow_redirects=False,
             )
             response = await self.task
@@ -126,7 +126,7 @@ class OtaUpdate(App):
             self.task = async_helpers.unblock(
                 requests.get,
                 render_update,
-                "https://api.github.com/repos/emfcamp/badge-2024-software/releases/tags/latest",
+                "https://api.github.com/repos/dcsrock1/Tildagon-Custom/releases/tags/latest",
                 headers={"User-Agent": "Badge OTA"},
             )
             notes = await self.task

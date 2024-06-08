@@ -9,7 +9,7 @@
 
 // static const char *TAG = "ota";
 
-#define IMAGE_URL "https://github.com/emfcamp/badge-2024-software/releases/download/latest/micropython.bin"
+#define IMAGE_URL "https://github.com/dcsrock1/Tildagon-Custom/releases/download/latest/micropython.bin"
 //#define IMAGE_URL "https://61a450d7332f.ngrok.app/micropython.bin"
 //
 

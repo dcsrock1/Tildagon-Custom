@@ -7,6 +7,7 @@ from system.hexpansion.app import HexpansionManagerApp
 from system.patterndisplay.app import PatternDisplay
 from system.notification.app import NotificationService
 from system.launcher.app import Launcher
+from firmware_apps import intro_app
 from system.power.handler import PowerEventHandler
 
 from frontboards.twentyfour import TwentyTwentyFour
@@ -25,6 +26,7 @@ scheduler.start_app(PatternDisplay())
 scheduler.start_app(Launcher(), foreground=True)
 
 # Start notification handler
+
 scheduler.start_app(NotificationService(), always_on_top=True)
 
 try:
